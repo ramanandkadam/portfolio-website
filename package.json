@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": " https://ramanandkadam.github.io/portfolio-website/>"  ,
+  "homepage": " https://ramanandkadam.github.io/portfolio-website/>",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1"

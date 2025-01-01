@@ -22,13 +22,14 @@ const MyWork = () => {
         </div>
         <div className="mywork-container">
             {mywork_data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt=''/>
-
+                return ( <img key={index} src={work.w_img} alt=''/> 
+                        
+            )
             })
             }
         </div>
         <div className="mywork-showmore">
-         <a href='https://github.com/ramanandkadam?tab=repositories' target='_blank'>Show more</a>
+         <a href='https://github.com/ramanandkadam?tab=repositories' target='_blank'>Click here to view</a>
             <img src={arrow_icon} alt=''/>
         </div>
     </div>

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-top">
             <div className="footer-top-left">
                 
-                <p>I am Software developer from India with 6 months of experience.</p>
+                <p>I am Software developer from India.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
